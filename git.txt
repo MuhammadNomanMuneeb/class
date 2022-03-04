@@ -1,1 +1,98 @@
 noman
+void main() {
+
+  String name1 = "IQRA UNVERSITY";
+  print(name1.padLeft(40));
+  
+  var  space ="  ";
+  print (space);  
+
+var name = "Name :             Muhammad Noman";
+var f_name = "Father Name :      Muhammad Murtaza";
+var address = "Adress :           Iqra Unversity";
+  print (name);
+  print (f_name);
+  print (address);
+ 
+ 
+  print (space);
+  
+  
+   var name11 = 100;
+  
+   var name10 = '----------------------------------------------------';
+  print(name10);
+  
+  var marks = "Subject             Total Marks         Obtain Marks";
+  print (marks);
+  
+  print (name10);
+  
+  var number = 56;
+print("1 Physic:                 \ $name11              \ $number");
+ 
+  var number1 = 74;
+print("2 Urdu:                   \ $name11              \ $number1");
+
+
+  var number2 = 66;
+print("3 English:                \ $name11              \ $number2");
+
+ var number3 = 60;
+print("4 Math:                   \ $name11              \ $number3");
+
+  var number4 = 65;
+print("5 Islamiat:               \ $name11              \ $number4");
+
+  print (name10);
+  print (space);
+
+  var obt_mark = number + number1 + number2 + number3 + number4;
+print("Obtain Marks: $obt_mark");
+
+  var t_marks = 500;
+print("Toatl Marks: $t_marks");
+
+  print (space);
+  
+  print (name10);
+  
+  var percentage1 = (obt_mark / t_marks * 100);
+print("Percentage: $percentage1%");
+  
+   print (name10);
+  if (percentage1>=80)
+  {
+    print ("Grade: [A1]");
+  }
+    else if(percentage1>=70)
+  {
+    print ("Grade: [A]".padLeft(50));
+  }
+  
+  else if(percentage1>=60)
+  {
+    print ("Grade : [B]".padLeft(50));
+  }
+  else if (percentage1>=50)
+  {
+    print ("Grade : [C]".padLeft(50));
+  } 
+  else if (percentage1>=40)
+  {
+    print ("Grade : [D]".padLeft(50));
+  }
+  else if (percentage1>=30)
+  {
+    print ("Grade : [E]".padLeft(50));
+  }
+   else
+   {
+     print ("you are Failed".padLeft(50));
+     
+   } 
+  print(name10);
+    
+  
+  
+}
