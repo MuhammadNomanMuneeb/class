@@ -5,5 +5,6 @@ void main() {
     "class": 'XII',
   };
   List data = [1, 2.7, "hhh", std];
-  print(data[3]["name"]);
+  // print(data["name"]);
+  print(std['class']);
 }
