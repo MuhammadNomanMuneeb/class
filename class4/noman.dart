@@ -14,6 +14,15 @@ void main() {
 
   var val = fruit.putIfAbsent(3, () => 'mango');
   //print(fruit);
-  print(val);
-  
+  //print(val);
+  var i = 0;
+  //print(i--);
+  //print(++i);
+
+  for (var num = 0; num <= 10; num ++) {
+   if(num%2==0)
+   {
+    print(num);
+   }
+  }
 }
