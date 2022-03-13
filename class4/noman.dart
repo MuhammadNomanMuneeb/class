@@ -5,6 +5,15 @@ void main() {
     "class": 'XII',
   };
   List data = [1, 2.7, "hhh", std];
-  // print(data["name"]);
-  print(std['class']);
+  // print(data[3]["name"]);
+  // print(std['class']);
+
+  var fruit = {1: 'apple', 2: 'orange'};
+  //fruit[3] = 1;
+  //print(fruit);
+
+  var val = fruit.putIfAbsent(3, () => 'mango');
+  //print(fruit);
+  print(val);
+  
 }
